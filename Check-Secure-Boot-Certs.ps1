@@ -3,7 +3,7 @@
 # and sends the results to a specified API endpoint.
 
 # Server address. Change to the appropriate server as needed.
-$uri = "http://domain.tld:8000/api"
+$uri = "http://localhost:8000/api"
 
 # Get the computer name
 $computerName = $env:COMPUTERNAME
